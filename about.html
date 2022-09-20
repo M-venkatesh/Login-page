@@ -1,0 +1,99 @@
+<?php 
+session_start();
+?>
+<html>
+  <head>
+    <title>About us</title>
+    <style>
+      body {
+        background: url("images/bg.png");      
+        background-size: cover;       
+      }
+      .menu {
+        padding: 16px;
+        font-weight: 200;
+        color: black;
+      }
+      h1 {
+        text-align: center;
+      }
+      #para {
+        padding-left: 300px;
+        padding-right: 300px;
+        font-size: 20px;
+        font-weight: 500;
+      }
+     
+    .topbar-link{
+        float:right;
+        font-size:20px;
+        margin:5px 15px;
+    }
+    #top-name{
+        font-size:30px;
+        font-style:italic;
+        font-weight:400;
+        margin:20px;
+        color:rgb(14, 13, 13);
+    }
+    a{
+        text-decoration:none;
+        color:rgb(8, 8, 8);
+    }
+    a:hover{
+        text-decoration:underline;
+    }
+    </style>
+  </head>
+  <body style="margin: 0px">
+
+    <div class="container" >
+      <nav>
+           <span id="top-name"> Welcome</span>
+           <span><a class="topbar-link" href="logout.php">Logout</a></span>
+           <span><a class="topbar-link" href="contact.html">Contact us</a></span>
+           <span><a class="topbar-link" href="about.html" >About us</a></span>    
+           <span><a class="topbar-link" href="user.php" >Home</a></span>    
+           
+      </nav>
+      </div>
+
+
+    <h1>ABOUT US</h1>
+    <p id="para"><i><b>
+        Now a days, the educational institutes are adopting
+        technologies for betterment of student’s quality, in respect to
+        teaching methodologies etc. For which the huge information
+        available with educational institutes can be used to predict
+        student's future in academics. The main objective of this paper is
+        to predict the student performance in the examination and also
+        to predict the student will graduate or not. Hence forth we are
+        using statistical analytical method which is F1 score. F1 score or
+        F measure is used to test the prediction accuracy by considering
+        precision and recall to compute the score. To fulfill this
+        requirement in machine learning, classification technique is
+        used. The dataset used in this analysis contains 395 student
+        records, having attributes, such as age, health, internet, school,
+        father job, mother job etc. Using support vector machines
+        (SVM), Decision Tree and Naïve Bayes (NB) classification
+        algorithms F1 score is calculated for each algorithm. Based on
+        the analysis done the F1 score of support vector machine is
+        giving the better prediction compared to rest of the two
+        algorithms.<br>
+        The college administration a has an objective to achieve
+a 95% graduation rate before the decade's over by
+distinguishing students who require intervention before they
+drop out of school. To recognize whether the student will
+graduate or not. We will probably display the variables that
+foresee how likely a student is to pass their secondary
+school final exam. We being a sharp engineer choose to
+implement a student intervention framework utilizing ideas
+we gained from supervised machine learning. Rather than
+purchasing costly servers or actualizing new information
+models starting from the earliest stage, it can be connected
+to outsider organization who will give the essential
+programming libraries and servers to run our software
+        </b></i>
+    </p>
+  </body>
+</html>
